@@ -1,0 +1,25 @@
+{
+  "name": "club",
+  "version": "0.3.6",
+  "main": "app.js",
+  "private": true,
+  "customHost": [
+    "cnodejs.org",
+    "club.cnodejs.org"
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "should": "*",
+    "mocha": "*",
+    "rewire": "*",
+    "jscover": "*",
+    "pedding": "*",
+    "mm": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
